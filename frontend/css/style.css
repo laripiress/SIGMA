@@ -1,0 +1,17 @@
+:root{
+    /*cores destaque*/
+    amarelo:#daa520;
+    azul:#0166b4;
+    /*backgroud darckmode*/
+    background_dark:#000000;
+    nav_dark:#131313;
+    box_dark:#2b2b2b;
+    /*background lightmode*/
+    background_light:#fcfcfc;
+    nav_light:#e4e4e4;
+    box_light:#f3f3f3;
+    /*sinalizações*/
+    sucesso:#28c840;
+    aviso:#febc2e;
+    erro:#ff5f57;
+}
