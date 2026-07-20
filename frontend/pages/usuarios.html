@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuários - SIGMA</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="brand">
+                <img src="../assets/images/icons/logo_light.png" alt="SIGMA">
+                <div>
+                    <h2>SIGMA</h2>
+                    <p>Gestão de Ativos</p>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="dashboard.html">Dashboard</a>
+                <a href="equipamentos.html">Equipamentos</a>
+                <a href="estoque.html">Estoque</a>
+                <a href="garantias.html">Garantias</a>
+                <a href="hardware.html">Hardware</a>
+                <a href="manutencoes.html">Manutenções</a>
+                <a href="relatorios.html">Relatórios</a>
+                <a href="usuarios.html" class="active">Usuários</a>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="login.html" class="logout">Sair</a>
+            </div>
+        </aside>
+        <main class="main">
+            <div class="header">
+                <div>
+                    <h1>Usuários</h1>
+                    <p class="page-meta">Controle de acesso, cadastro e perfis de usuários.</p>
+                </div>
+                <button class="primary">Cadastrar usuário</button>
+            </div>
+            <div class="card">
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr><th>Nome</th><th>Email</th><th>Perfil</th><th>Status</th><th>Último acesso</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Juliana Silva</td><td>juliana@empresa.com</td><td>Administrador</td><td><span class="status sucesso">Ativo</span></td><td>19/07/2026</td></tr>
+                            <tr><td>Rafael Costa</td><td>rafael@empresa.com</td><td>Técnico</td><td><span class="status sucesso">Ativo</span></td><td>18/07/2026</td></tr>
+                            <tr><td>Mariana Lima</td><td>mariana@empresa.com</td><td>Supervisor</td><td><span class="status aviso">Inativo</span></td><td>09/07/2026</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

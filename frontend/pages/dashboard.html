@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - SIGMA</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="brand">
+                <img src="../assets/images/icons/logo_light.png" alt="SIGMA">
+                <div>
+                    <h2>SIGMA</h2>
+                    <p>Gestão de Ativos</p>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="dashboard.html" class="active">Dashboard</a>
+                <a href="equipamentos.html">Equipamentos</a>
+                <a href="estoque.html">Estoque</a>
+                <a href="garantias.html">Garantias</a>
+                <a href="hardware.html">Hardware</a>
+                <a href="manutencoes.html">Manutenções</a>
+                <a href="relatorios.html">Relatórios</a>
+                <a href="usuarios.html">Usuários</a>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="login.html" class="logout">Sair</a>
+            </div>
+        </aside>
+        <main class="main">
+            <div class="header">
+                <div>
+                    <h1>Dashboard</h1>
+                    <p class="page-meta">Visão geral da operação e indicadores principais.</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <strong>128</strong>
+                    <span>Equipamentos cadastrados</span>
+                </div>
+                <div class="card">
+                    <strong>42</strong>
+                    <span>Manutenções ativas</span>
+                </div>
+                <div class="card">
+                    <strong>11</strong>
+                    <span>Garantias críticas</span>
+                </div>
+                <div class="card">
+                    <strong>19</strong>
+                    <span>Peças com estoque mínimo</span>
+                </div>
+            </div>
+            <section class="hero">
+                <div class="card">
+                    <h2>Resumo de manutenção</h2>
+                    <p>O SIGMA centraliza solicitações, diagnósticos, execução e custo de manutenção em um único painel gerencial.</p>
+                </div>
+                <div class="card">
+                    <h2>Alertas de estoque</h2>
+                    <p>O sistema emite alertas automáticos para itens abaixo do estoque mínimo e para garantias próximas do vencimento.</p>
+                </div>
+            </section>
+            <div class="card">
+                <h2>Atividades recentes</h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr><th>Ordem</th><th>Equipamento</th><th>Status</th><th>Responsável</th><th>Prazo</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>MT-1123</td><td>Impressora Laser</td><td><span class="status aviso">Pendente</span></td><td>Juliana</td><td>28/07/2026</td></tr>
+                            <tr><td>MT-1121</td><td>Servidor Local</td><td><span class="status sucesso">Concluída</span></td><td>Rafael</td><td>25/07/2026</td></tr>
+                            <tr><td>MT-1119</td><td>Notebook TI</td><td><span class="status erro">Atrasada</span></td><td>Lucas</td><td>22/07/2026</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque - SIGMA</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="brand">
+                <img src="../assets/images/icons/logo_light.png" alt="SIGMA">
+                <div>
+                    <h2>SIGMA</h2>
+                    <p>Gestão de Ativos</p>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="dashboard.html">Dashboard</a>
+                <a href="equipamentos.html">Equipamentos</a>
+                <a href="estoque.html" class="active">Estoque</a>
+                <a href="garantias.html">Garantias</a>
+                <a href="hardware.html">Hardware</a>
+                <a href="manutencoes.html">Manutenções</a>
+                <a href="relatorios.html">Relatórios</a>
+                <a href="usuarios.html">Usuários</a>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="login.html" class="logout">Sair</a>
+            </div>
+        </aside>
+        <main class="main">
+            <div class="header">
+                <div>
+                    <h1>Estoque</h1>
+                    <p class="page-meta">Controle de peças, entradas, saídas e alertas de estoque mínimo.</p>
+                </div>
+                <button class="primary">Nova entrada</button>
+            </div>
+            <div class="card">
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr><th>Peça</th><th>Categoria</th><th>Qtd. Disponível</th><th>Estoque Mínimo</th><th>Status</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>HD 1TB</td><td>Armazenamento</td><td>32</td><td>10</td><td><span class="status sucesso">Suficiente</span></td></tr>
+                            <tr><td>Fonte 500W</td><td>Energia</td><td>6</td><td>5</td><td><span class="status aviso">Baixo</span></td></tr>
+                            <tr><td>Memória 8GB</td><td>Memória</td><td>2</td><td>5</td><td><span class="status erro">Crítico</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,45 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../"></script>
-    <link rel="stylesheet" href="../sql_sigma/frontend/assets/css/style.css">
-    <link rel="icon" href="../frontend/assets/images/icons/logo_light.png" type="image/png">
-    <title>SIGMA</title>
+    <title>SIGMA - Login</title>
+    <link rel="stylesheet" href="frontend/assets/css/style.css">
 </head>
-<body>
-    <!-- background -->
-    <img src="../sql_sigma/frontend/assets/images/backgrounds/background_light.png" alt="" class="fundo">
-    <div class="blur-fundo"></div>
-
-    <!-- navbar -->
-    <header>
-        <!-- logo -->
-        <div class="logo">
-            <a href=".../index.html">
-                <img src="../sql_sigma/frontend/assets/images/icons/logo_light.png" alt="">
-            </a>
-        </div>
-        <h1>SIGMA</h1>
-        <h1>Sistema Integrado de Gestão de Maquinas e Ativos</h1>
-    </header>
-
-    <!-- body/box_login -->
-    <section>
-        <div class="login">
-            <div class="login_box">
-                <!-- inputs login -->
-                <h2>Login</h2>
-                <form action="">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Email">
-                    <label for="senha">Senha</label>
-                    <input type="password" name="password" id="password" placeholder="Senha">                    
-                </form>
+<body class="login-page">
+    <div class="login-box">
+        <div class="brand">
+            <img src="frontend/assets/images/icons/logo_light.png" alt="SIGMA">
+            <div>
+                <h2>SIGMA</h2>
+                <p>Sistema Integrado de Gestão de Ativos</p>
             </div>
         </div>
-    </section>
-
+        <h2>Entrar no sistema</h2>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="seu@email.com">
+        </div>
+        <div class="form-group">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="Senha">
+        </div>
+        <div class="button-row">
+            <a href="frontend/pages/dashboard.html">Entrar</a>
+        </div>
+    </div>
 </body>
 </html>

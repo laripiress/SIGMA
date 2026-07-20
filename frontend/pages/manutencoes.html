@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manutenções - SIGMA</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="brand">
+                <img src="../assets/images/icons/logo_light.png" alt="SIGMA">
+                <div>
+                    <h2>SIGMA</h2>
+                    <p>Gestão de Ativos</p>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="dashboard.html">Dashboard</a>
+                <a href="equipamentos.html">Equipamentos</a>
+                <a href="estoque.html">Estoque</a>
+                <a href="garantias.html">Garantias</a>
+                <a href="hardware.html">Hardware</a>
+                <a href="manutencoes.html" class="active">Manutenções</a>
+                <a href="relatorios.html">Relatórios</a>
+                <a href="usuarios.html">Usuários</a>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="login.html" class="logout">Sair</a>
+            </div>
+        </aside>
+        <main class="main">
+            <div class="header">
+                <div>
+                    <h1>Manutenções</h1>
+                    <p class="page-meta">Controle de atividades corretivas e preventivas por equipamento.</p>
+                </div>
+                <button class="primary">Nova manutenção</button>
+            </div>
+            <div class="card">
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr><th>Ordem</th><th>Tipo</th><th>Equipamento</th><th>Causa</th><th>Status</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>MT-1123</td><td>Corretiva</td><td>Impressora Laser</td><td>Troca de tambor</td><td><span class="status aviso">Em andamento</span></td></tr>
+                            <tr><td>MT-1120</td><td>Preventiva</td><td>Servidor Local</td><td>Verificação de temperatura</td><td><span class="status sucesso">Concluída</span></td></tr>
+                            <tr><td>MT-1118</td><td>Corretiva</td><td>Notebook TI</td><td>Substituição de bateria</td><td><span class="status sucesso">Concluída</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

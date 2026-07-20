@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipamentos - SIGMA</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="brand">
+                <img src="../assets/images/icons/logo_light.png" alt="SIGMA">
+                <div>
+                    <h2>SIGMA</h2>
+                    <p>Gestão de Ativos</p>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="dashboard.html">Dashboard</a>
+                <a href="equipamentos.html" class="active">Equipamentos</a>
+                <a href="estoque.html">Estoque</a>
+                <a href="garantias.html">Garantias</a>
+                <a href="hardware.html">Hardware</a>
+                <a href="manutencoes.html">Manutenções</a>
+                <a href="relatorios.html">Relatórios</a>
+                <a href="usuarios.html">Usuários</a>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="login.html" class="logout">Sair</a>
+            </div>
+        </aside>
+        <main class="main">
+            <div class="header">
+                <div>
+                    <h1>Equipamentos</h1>
+                    <p class="page-meta">Cadastro, consulta e controle dos ativos da organização.</p>
+                </div>
+                <button class="primary">Cadastrar equipamento</button>
+            </div>
+            <div class="card">
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr><th>ID</th><th>Nome</th><th>Status</th><th>Localização</th><th>Patrimônio</th><th>Garantia</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>EQT-001</td><td>Servidor Local</td><td><span class="status sucesso">Ativo</span></td><td>Data Center</td><td>12548</td><td>12/11/2027</td></tr>
+                            <tr><td>EQT-002</td><td>Notebook TI</td><td><span class="status sucesso">Ativo</span></td><td>Setor TI</td><td>12549</td><td>06/03/2028</td></tr>
+                            <tr><td>EQT-003</td><td>Impressora Laser</td><td><span class="status aviso">Em manutenção</span></td><td>Recepção</td><td>12550</td><td>18/09/2026</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
