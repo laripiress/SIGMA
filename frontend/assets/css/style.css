@@ -1,21 +1,10 @@
-/*definição de cores*/
-:root{
-    /*cores destaque*/
-    amarelo:#daa520;
-    azul:#0166b4;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(../css/base/global.css);
+@import url(../css/base/reset.css);
+@import url(../css/base/typography.css);
+@import url(../css/base/variables.css);
 
-    /*backgroud darckmode*/
-    background_dark:#000000;
-    nav_dark:#131313;
-    box_dark:#2b2b2b;
-
-    /*background lightmode*/
-    background_light:#fcfcfc;
-    nav_light:#e4e4e4;
-    box_light:#f3f3f3;
-
-    /*sinalizações*/
-    sucesso:#28c840;
-    aviso:#febc2e;
-    erro:#ff5f57;
+*::selection{
+    background: var(--background_light);
+    color: var(--background_dark);
 }
